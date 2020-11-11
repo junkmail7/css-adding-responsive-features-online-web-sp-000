@@ -164,8 +164,8 @@ img, video, audio, iframe, table, form {
   margin: 0 auto;
 }
 
-@media query {
-
+@media only screen and (max-width: 980px) {
+  .wrapper { width: 90%; }
 }
 
 .col-1 {
